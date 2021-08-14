@@ -1,0 +1,47 @@
+/* Import popins fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 600;
+}
+
+
+
+/* Header items styles */
+.header{
+    background-color: #264653;
+    color: white;
+}
+.custom-button{
+    background-color: #E76F51;
+    border: none;
+}
+/* Featured bike sections styles */
+.featured-bike p, .highlight{
+    font-weight: 600;
+    color:#E76F51;
+}
+.grayscale{
+    filter:grayscale(100%);
+}
+/* Happy clients */
+.name{
+    color: #23A6F0;
+}
+/* get in touch */
+.get-in-touch{
+    height: 50vh;
+    background-image: linear-gradient(to bottom, rgba(14, 14, 14, 0.89), rgba(0, 0, 0, 0.877)),url(images/banner.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.get-in-touch h1{
+    color: white;
+}
+.get-in-touch p{
+    color: white;
+}
